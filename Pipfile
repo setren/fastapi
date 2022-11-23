@@ -8,6 +8,8 @@ fastapi = "*"
 uvicorn = "*"
 python-multipart = "*"
 pydantic = {extras = ["email"], version = "*"}
+farm-haystack = {extras = ["all-gpu"], version = "*"}
+sqlalchemy = "*"
 
 [dev-packages]
 autopep8 = "*"
